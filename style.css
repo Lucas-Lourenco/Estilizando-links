@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'milky';
+    src: url(./fontes/MilkyNice.otf),
+    url(./fontes/MilkyNice.ttf);
+}
+
+*{
+    
+    font-family: 'milky',Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+h1{
+   padding: 5px 0px ;
+   margin: 25px;
+   
+   
+}
+h2{
+   padding: 5px 2px;
+    margin: 10px 5px ;
+    text-align: justify;
+    
+}
+
+
+ul{
+    list-style: square inside url(./images/icon.png);
+}
+
+
+ul li{
+    text-align: justify;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: bisque;
+}
+
+ol{
+    list-style:decimal-leading-zero inside;
+}
+ol li{
+    text-align: justify;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgb(165, 153, 139);
+}
+
+a{
+    
+    cursor:progress;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    background-color: aqua;
+}
